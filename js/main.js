@@ -14,13 +14,86 @@ var myQuestions = [
         correctAnswer: 'b'
     },
     {
-        question: "Which ear do we ear-tip in Wisconsin?",
+        question: "What are the benefits of TNR?",
+        answers: {
+            a: 'Reduces the number of community cats over time',
+            b: 'Reduces nuisance behaviors like fighting and spraying',
+            c: 'Allows cats to live healthier lives with reduced risk of disease',
+            d: 'All of the above'
+        },
+        correctAnswer: 'd'
+    },
+    {
+        question: "What treatments does a TNR cat typically receive?",
+        answers: {
+            a: 'They are spayed/neutered, vaccinated, and microchipped',
+            b: 'They are spayed/neutered only',
+            c: 'Only the males are snipped'
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "What defines a community cat?",
+        answers: {
+            a: 'outdoor, unowned, free-roaming cats',
+            b: 'any free-roaming cat - owned or unowned',
+            c: 'owned indoor/outdoor cats'
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "What happens to feral community cats brought to most shelters?",
+        answers: {
+            a: 'They are adopted out.',
+            b: 'The go to barn homes.',
+            c: 'They are euthanized.'
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "How many community cats exist across the United States?",
+        answers: {
+            a: 'between 60,000 and 100,000',
+            b: 'between 800,000 and one million',
+            c: 'between 60 million and 100 million'
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "Which ear is ear-tipped in Wisconsin?",
         answers: {
             a: 'left',
             b: 'right',
-            c: 'neither'
+            c: 'both'
         },
         correctAnswer: 'a'
+    },
+    {
+        question: "Why do we ear-tip TNR cats?",
+        answers: {
+            a: 'To show they are unadoptable',
+            b: 'It prevents an already neutered cat the stress of re-trapping',
+            c: 'It tells people which cats are aggressive'
+        },
+        correctAnswer: 'b'
+    },
+    {
+        question: "Do ear-tipped community cats get adopted out?",
+        answers: {
+            a: 'Yes. After being fixed we find almost half of community cats become friendly and enjoy indoor life',
+            b: 'No. All ear-tipped cats are feral and should be left outdoors',
+            c: 'Yes, but it is rare for an outdoor cat to enjoy indoor life.'
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "Is it helpful to feed outdoor cats?",
+        answers: {
+            a: 'Absolutely. They need our help',
+            b: 'No. They are acclimated to outdoors and do not need us',
+            c: 'Yes. But only if they are fixed or if you plan to TNR them ASAP.'
+        },
+        correctAnswer: 'c'
     }
 ];
 

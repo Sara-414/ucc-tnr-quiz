@@ -95,12 +95,23 @@ textarea {
     background: rgb(175, 222, 222);
   }
 
+  h1 {
+    color:rgb(224, 96, 164);
+    text-shadow: 1px 1px black;
+  }
+
   .question {
     font-weight: 600;
+    margin-bottom: 5px;
   }
 
   .answers {
-      margin-bottom: 20px;
+    margin-bottom: 30px;
+    display:grid;
+  }
+
+  .answers .letter {
+    margin-left: 10px;
   }
 
   #submit {
@@ -113,6 +124,9 @@ textarea {
     padding: 20px;
     cursor: pointer;
     margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    box-shadow: 1px 1px black;
   }
 
   #submit:hover {
