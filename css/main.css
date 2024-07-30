@@ -134,7 +134,8 @@ textarea {
   }
 
   iframe {
-    padding: 25px;
+    padding: 10px;
+    padding-top: 25px;
   }
 
 /* ==========================================================================
@@ -225,8 +226,12 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 780px) {
   /* Style adjustments for viewports that meet the condition */
+  iframe {
+    width: 60%;
+    height: 60%;
+  }
 }
 
 @media print,
