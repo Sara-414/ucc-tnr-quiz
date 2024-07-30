@@ -91,7 +91,7 @@ textarea {
     font-size: 20px;
     font-family: sans-serif;
     color: #333;
-    margin: 25px;
+    margin: 50px;
     background: rgb(175, 222, 222);
   }
 
@@ -131,6 +131,10 @@ textarea {
 
   #submit:hover {
     background-color: rgb(228, 121, 178);
+  }
+
+  iframe {
+    padding: 25px;
   }
 
 /* ==========================================================================
